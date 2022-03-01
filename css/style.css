@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    font-family: 'Abel', sans-serif;
+}
+
+header nav img{
+    width: 80px;
+    height: 80px;
+}
+
+input{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0 !important;
+}
+
+input:focus{
+    box-shadow: none !important;
+}
+
+#carousel .carousel-item{
+    max-height: 90vh;
+}
+
+.circle-box div{
+    padding: 0 10px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#carouselExampleCaptions .carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+#carouselExampleCaptions .carousel-item{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#courses img{
+    height: 250px;
+    border-radius: 12px;
+}
+
+#courses .card{
+    border-radius: 12px;
+}
+
+#programs .card img{
+    height: 300px !important;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+    position: absolute;
+    bottom: -35px;
+}
+
+#carouselExampleIndicators .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    background-color: lightgray;
+    color: blue;
+    border: none;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100%;
+}
+
+#btn-back-to-top:focus{
+    box-shadow: none;
+}
+
+#btn-back-to-top:hover{
+    border: 1px solid blue;
+}
+
+footer a{
+    text-decoration: none;
+}
